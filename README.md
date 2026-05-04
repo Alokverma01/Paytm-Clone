@@ -14,7 +14,7 @@ This project demonstrates how to build a scalable backend system with authentica
 
 ```
 paytm-project/
-├── frontend/   # Frontend (React / Next.js)
+├── frontend/   # Frontend (Next.js + TailwindCSS)
 ├── backend/    # Backend (Node.js + Express + TypeScript)
 └── README.md
 ```
@@ -37,8 +37,8 @@ paytm-project/
 
 ### Frontend
 
-- React / Next.js
-- Tailwind CSS (optional)
+- Next.js
+- Tailwind CSS
 
 ### Backend
 
@@ -63,7 +63,7 @@ Frontend → Backend API → MongoDB
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/paytm-clone.git
+git clone https://github.com/Alokverma01/paytm-clone.git
 cd paytm-clone
 ```
 
