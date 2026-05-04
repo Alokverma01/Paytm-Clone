@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+:root {
+  /* Background */
+  --bg: #f4f1d2;
+  --bg-soft: #eee9bf;
+  --bg-soft-2: #f6f3d8;
+
+  /* Primary */
+  --primary: #2f5d3a;
+  --primary-dark: #1f2f22;
+
+  /* Accent */
+  --accent: #6fae6e;
+
+  /* Text */
+  --text: #1a1f1a;
+  --text-muted: #4b5a4b;
+
+  /* Surface */
+  --surface: #ffffff;
+  --border: #e7e4c8;
+}
+
+@theme {
+  --color-bg: var(--bg);
+  --color-bg-soft: var(--bg-soft);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-accent: var(--accent);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-surface: var(--surface);
+  --color-border: var(--border);
+}
+
+/* Apply global theme */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-inter);
+}
+
+/* Optional font helper */
+.font-bricolage {
+  font-family: var(--font-bricolage);
+}
